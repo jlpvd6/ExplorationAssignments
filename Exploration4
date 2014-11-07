@@ -1,0 +1,66 @@
+>>> import sys
+>>> import random
+>>> ans = True
+>>> while ans:
+	question = input("Ask the magic 8 ball your question: (press enter to quit)")
+	answers = random.randint(1,8)
+	if question == "":
+		sys.exit()
+	elif answer == 1:
+		print "With certainty"
+		
+SyntaxError: invalid syntax
+>>> 
+>>> print ("With certainty")
+With certainty
+>>> elif answer == 1:
+	
+SyntaxError: invalid syntax
+>>> while ans:
+	question = input("Ask the magic 8 ball your question: (press enter to quit)")
+	answers = random.randint(1,8)
+	if question == "":
+		sys.exit()
+	elif answer == 1:
+		print (With certainty)
+		
+SyntaxError: invalid syntax
+>>> while ans:
+	question = input("Ask the magic 8 ball your question: (press enter to quit)")
+	answers = random.randint(1,8)
+	if question == "":
+		sys.exit()
+	elif answer == 1:
+		print ("With certainty")
+	elif answer == 2:
+		print ("Outlook good")
+	elif answer == 3:
+		print ("You best believe it!")
+	elif answer == 4:
+		print ("Try again later")
+	elif answer == 5:
+		print ("Focus harder and try again")
+	elif answer = 6:
+		
+SyntaxError: invalid syntax
+>>> while ans:
+	question = input("Ask the magic 8 ball your question: (press enter to quit)")
+	answers = random.randint(1,8)
+	if question == "":
+		sys.exit()
+	elif answer == 1:
+		print ("With certainty")
+	elif answer == 2:
+		print ("Outlook good")
+	elif answer == 3:
+		print ("You best believe it!")
+	elif answer == 4:
+		print ("Try again later")
+	elif answer == 5:
+		print ("Focus harder and try again")
+	elif answer == 6:
+		print ("I couldn't understand you")
+	elif answer == 7:
+		print ("My answer is no.")
+	elif answer == 8:
+		print ("The spirits tell me no")
