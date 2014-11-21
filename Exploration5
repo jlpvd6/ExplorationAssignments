@@ -1,0 +1,23 @@
+// Start Quiz
+confirm("Welcome to America's Least Hated GameShow!");
+var age = prompt("Red or Blue");
+
+if(age.length == 3 ) {
+    console.log("Red it is, but you lost 3 points");
+}
+else {
+    console.log("Blue is correct, 5 points to Hufflepuff");
+}
+
+console.log("Red team has the advantage in scally wags, but blue team has BALLS OF STEEL");
+
+console.log("A new challenger approaches! Blue team lost 3 points. ");
+
+var userAnswer = prompt("Can you dig it?");
+
+if(userAnswer === "yes") {
+    console.log("Solidarity is hip. But I can't dig hipsters. Go ahead and add 5 though.");
+}
+else {
+    console.log("Negro you blind? That's straight offensive I tell you what. But go ahead and add 4 points.");
+}
